@@ -1,5 +1,5 @@
 //hover effect
-const hover = document.querySelectorAll('.card-index');
+const hover = document.querySelectorAll('.card-index-d');
 
 hover.forEach((card) => {
     card.addEventListener('mouseover', () => {
