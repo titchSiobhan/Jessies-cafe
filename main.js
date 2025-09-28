@@ -17,9 +17,21 @@ function hamburgerClick() {
    
 // click links
 const logo = document.querySelector('.logo');
+
+
+const body = document.querySelector('body');
+
+// Check if dark mode is enabled
+const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+// Apply dark mode styles if enabled
+if (isDarkMode) {
+  body.classList.add('dark-mode');
+}
 logo.addEventListener('click', () => {
     window.location.href = 'index.html';
 });
+
 /*
 const hover = document.querySelectorAll('.card-index-d');
 
