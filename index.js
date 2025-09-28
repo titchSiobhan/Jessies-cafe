@@ -9,6 +9,8 @@ hover.forEach((card) => {
         card.style.transform = 'scale(1)';
     });
 });
+
+
 // click links
 const logo = document.querySelector('.logo');
 const drinks = document.querySelector('.item2');

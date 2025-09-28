@@ -66,10 +66,15 @@ body {
     justify-self: center;
     padding: 10px;
     cursor: pointer;
-    @media (prefers-color-scheme: dark) {
-    background-image: url('images/jessie-cafe-light.png');
-} 
+    
 }
+
+@media (prefers-color-scheme: dark) {
+    .logo {
+        background-image: url('images/jessie-cafe-light.png');
+    }
+    
+} 
 .nav-bar {
     grid-row: 4/ 6;
 }
