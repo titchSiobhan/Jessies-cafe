@@ -71,7 +71,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
     .logo {
-        background-image: url('images/jessie-cafe-light.png');
+        background-image: url('images/jessie-cafe-light.PNG');
     }
     
 } 

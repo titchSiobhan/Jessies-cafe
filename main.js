@@ -16,11 +16,11 @@ function hamburgerClick() {
   
    
 // click links
-/*const logo = document.querySelector('.logo');
+const logo = document.querySelector('.logo');
 logo.addEventListener('click', () => {
     window.location.href = 'index.html';
 });
-
+/*
 const hover = document.querySelectorAll('.card-index-d');
 
 hover.forEach(card) => {
