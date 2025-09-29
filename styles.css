@@ -15,11 +15,66 @@
 }
 
 
-.patrick-hand-sc-regular {
-  font-family: "Patrick Hand SC", cursive;
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 
 
 * {
@@ -30,7 +85,7 @@
 }
 body {
     background-color: #979797;
-    font-family: 'Patrick Hand SC', cursive;
+    font-family: 'Lato', sans-serif;
     
 }
 
@@ -103,7 +158,12 @@ body {
 
 a, a:hover, a:visited, a:active {
     text-decoration: none;
-    color: light-dark(#005470, #38CDFF);
+    color: light-dark(#313131,#f6f6f6);
+}
+
+a:hover {
+    color: var(--bright-colour);
+    text-decoration: underline;
 }
 
 header {
@@ -144,6 +204,7 @@ header {
     background-size: cover;
     background-color: rgba(49, 49, 49, 0.5);
     background-blend-mode: multiply;
+    color: #f6f6f6;
 
     }
 
@@ -160,12 +221,12 @@ header {
 
 #item4 h2 {
     padding: 3rem;
-    color: light-dark(#005470, #38CDFF);
+    color: light-dark(#313131,#f6f6f6);
 }
 
 #item3 h2, #item3 h3 {
     padding: 2rem;
-    color: light-dark(#005470, #38CDFF);
+    color: light-dark(#313131,#f6f6f6);
     text-shadow: #000 0px 5px 15px 0px;
     
 }
@@ -467,7 +528,7 @@ ul {
     background-color: rgba(49, 49, 49, 0.4);
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px 0px;
-    color: light-dark(#005470, #38CDFF);
+    color: light-dark(#313131,#f6f6f6);
     gap: 20px;
     z-index: 2;
     font-size: 1rem;
